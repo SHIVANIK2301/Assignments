@@ -1,7 +1,7 @@
-let cs:number=649;
+let cs:number=687;
 let income:number=90000;
 let status:boolean=true;
-let dti:number=41;
+let dti:number=39;
 if(cs>750)
     console.log(`Auto Approved loan as credit score:${cs}>750`);
 else if(cs>=650)
@@ -18,12 +18,10 @@ else if(cs>=650)
           {
              console.log("Loan Approved as employment status is true");
              console.log("Now we need to check DTI ratio criteria");
-          if(dti<40)
-           {
+           if(dti<40)
               console.log(`Yes Loan approved as dti ratio:${dti}<40%`);
-           }
-         else
-            console.log(`NO loan is denied as dti ratio:${dti}>40%`);
+          else
+              console.log(`NO loan is denied as dti ratio:${dti}>40%`);
         
            }
          else
