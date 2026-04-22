@@ -18,7 +18,7 @@ for(let n=0;n<student_names.length;)
 {
     //adding each value of newly created added by 10 
     console.log(`${student_names[n]}:${student_addedmark+10}`);
-    //calculating sum 
+    //calculating sum of updated marks
     total+=student_addedmark+10;
     n++;
 
@@ -28,6 +28,7 @@ for(let n=0;n<student_names.length;)
 
 console.log(`total of updated marks:${total}`);
 console.log(`Number of students:${student_addedmarks.length}`);
+//average calculation
 let average=total/student_addedmarks.length;
 console.log(`Average marks:${total}/${student_addedmarks.length}=${average}`);
 
