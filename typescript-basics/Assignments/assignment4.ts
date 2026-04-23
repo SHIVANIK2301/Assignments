@@ -41,7 +41,7 @@ for(let transaction of transactions)
     console.log(`Total Debited Transactions:${debited_number}`);
     console.log(`Total Credited Amount:${credited_total}`);
     console.log(`Total Debited Amount:${debited_total}`);
-    let remaining_amount:number=credited_total-debited_total;
+    let remaining_amount:number=credited_total+debited_total;
     console.log(`Total Amount Remaining in Bank Account is:Rs${remaining_amount}`);
     console.log(`Total Number of Suspecious Transactions is:${suspicious}`);
 
