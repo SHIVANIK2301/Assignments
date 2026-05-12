@@ -37,10 +37,13 @@ for(let i=0;i<splitted.length;i++)
 //printing new reversed word array
 console.log(`Reverse words of string is:\n${result.join(" ")}`);
 console.log("****************************************************************************");
-
+//creating empty string
 let upper: string = "";
+//iterating through each word os string
 for (let splitteds of splitted)
 {
+  //converting each word character to uppercase
    upper = upper + splitteds.substring(0, 1).toUpperCase() + splitteds.substring(1) + " ";
 }
+//printing uppercase string
 console.log("Uppercase Sentence is : " + upper.trim());
